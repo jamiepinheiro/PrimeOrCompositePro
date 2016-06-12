@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.epicstudios.primeorcompositepro.PrimeOrComposite"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageButton
+        android:id="@+id/backImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/black"
+        android:contentDescription="@string/app_name"
+        android:src="@android:drawable/ic_menu_revert" />
+
+    <TextView
+        android:id="@+id/pOrCTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backImageButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/p_c"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/Blue" />
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/pOrCEditText"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/submit"
+        android:textColor="@color/Blue"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/pOrCEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pOrCTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="@string/enter_number"
+        android:inputType="number"
+        android:textColor="@color/Blue" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/pOrCAnswerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submitButton"
+        android:layout_marginTop="60dp"
+        android:layout_toRightOf="@+id/backImageButton"
+        android:text="@string/p_c_a"
+        android:textColor="@color/Blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/numOfFactorsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pOrCAnswerTextView"
+        android:layout_below="@+id/pOrCAnswerTextView"
+        android:layout_marginTop="20dp"
+        android:text="@string/num_factors"
+        android:textColor="@color/Blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/pOrCNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pOrCAnswerTextView"
+        android:layout_below="@+id/submitButton"
+        android:layout_marginTop="22dp"
+        android:text="@string/num"
+        android:textColor="@color/Blue"
+        android:textSize="15sp" />
+
+</RelativeLayout>

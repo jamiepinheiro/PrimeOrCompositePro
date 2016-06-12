@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prime Or Composite Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="choose_calc">Choose Calculator</string>
+    <string name="p_c">Prime Or Composite</string>
+    <string name="find_p">Find Prime</string>
+    <string name="enter_number">Enter Number</string>
+    <string name="submit">Submit</string>
+    <string name="p_c_a">Prime Or Composite:</string>
+    <string name="num_factors">Number Of Factors:</string>
+    <string name="num">Number:</string>
+    <string name="num_searched">Number Searched:</string>
+    <string name="prime_found">Prime Found:</string>
+    <string name="ads">Tired Of Ads! Click Here To Go Pro!</string>
+
+    <color name="Blue">#ff33b5e5</color>
+    <color name="Red">#ffcc0000</color>
+
+    <string name="title_activity_prime_or_composite">PrimeOrComposite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_find_prime">FindPrime</string>
+
+</resources>
